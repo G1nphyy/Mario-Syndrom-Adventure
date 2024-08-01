@@ -1,50 +1,36 @@
-<style>
-    .aut{
-        color: #FFFF00
-    }
-    h1{
-        color: #FF0000
-    }
-</style>
+# Mario Syndrome Adventure
 
+Authors: Borys Kędziora, Daniel Michor
 
+## Introduction
 
-<h1 align='center'>Mario Syndrom Adventure</h1>
+Mario Syndrome Adventure is a game inspired by Super Mario Bros. The main objective is to navigate through levels of increasing difficulty. Players start with basic levels and can unlock hidden levels that offer additional challenges and coins. You have 3 lives to complete each level. The penultimate level features a boss named Henryk Silverhand, requiring a purchased or selected weapon to defeat him. To cheat, enter the file `WYMAKSOWANY.txt` and paste its content into `best.txt`.
 
+## Controls
 
-<p align='right' class="aut">Autorzy: Borys Kędziora, Daniel Michor</p>
+- **Move Left** - Left Arrow
+- **Move Right** - Right Arrow
+- **Jump** - Space
+- **Fire Weapon** - "Z" Key
+- **Jump Into Pipe** - "E" Key
+  
+![Settings](GRA/Losoweplikidogry/SETTINGS.png)
 
-<h2>1. WSTĘP</h2>
+The default controls can be changed in settings
+## Development Process
 
-<p>Gra wzorowana na Super Mario Bros, w której głównym celem jest przechodzenie przez różne poziomy o rosnącym stopniu trudności. Gracz rozpoczyna od poziomów podstawowych i ma możliwość odblokowywania ukrytych poziomów, które oferują dodatkowe wyzwania i coiny. Na przejście poziomu masz 3 życia, wydaję się proste?  wcale takie nie jest. Przedostatni poziom to boss Henryk srebrnoręki, aby z nim zawalczyć MUSISZ mieć zakupioną bądź wybraną broń. Do dokonania oszustwa trzeba wejść w plik WYMAKSOWANY.txt i wkleić treść do best.txt</p>
+The initial idea was to create a game similar to Mario Bros, but with unique and humorous elements. Weapons and interesting sounds were added to enhance the gameplay. Overcoming the 400 lines of code mark was challenging, but progress became smoother afterward. Hitbox issues were frequent and remain in some areas. After upgrading the game with weapons, sound design became a focus. Bartuś (Mr. Bartek Łączkowski) recorded the Mario song on electric guitar for the boss fight. For the main gameplay, a classical guitar version was edited to loop properly and added with Bartek's permission.
 
-<h2>2. STEROWANIE</h2>
-<img src='SETTINGS.png'/>
-Domyślne sterowanie, które można zmienić w ustawieniach: 
-    <ul>
-        <li>RUCH W LEWO - STRZAŁKA W LEWO</li>
-        <li>RUCH W PRAWO - STRZAŁKA W PRAWO</li>
-        <li>SKOK - SPACJA</li>
-        <li>STRZAŁ Z BRONI - PRZYCISK “Z” NA KLAWIATURZE</li>
-        <li>SKOK W TUBE - PRZYCISK “E” NA KLAWIATURZE</li>
-    </ul>
-<h2>3. PRZEBIEG TWORZENIA</h2>
+## Resources and Sounds
+- **Game Music** – MADE BY BARTEK <3
+- **Sound Effects** – [Sound effects](https://www.myinstants.com/en/categories/sound%20effects/) and my friend Tomek (IG: broda_t351) (“good coin” and “ITSA MI MARIUSZ AUTYSTA”)
+- **Characters** – Created by me (In Paint)
+- **Fonts** – [Google Fonts](https://fonts.google.com/)
 
-<p>Od początku myślałem nad stworzeniem czegoś typu Mario Bros, jednak nie wiedziałem, jak ją zmienić, aby była bardziej śmieszna/ciekawsza. Stwierdziłem, że dodam bronie oraz ciekawe dźwięki. Najcięższym etapem tworzenia było przebicie 400 linii kodu, po tym wszystko poszło jak z górki.  Pojawiało się wiele błędów z hitboxami, które zresztą nadal występują w niektórych miejscach, jednak nie wiedziałem do końca jak to naprawić. Po upgradowaniu gry pod względem broni itd.  zacząłem myśleć nad dźwiękami, wpadłem na pomysł, aby wykorzystać Bartusia (Mr. Bartek Łączkowski) do nagrania piosenki Mario na gitarze elektrycznej, dodałem to wykonanie na walkę z Bossem, natomiast nadal zastanawiałem się nad dźwiękiem w main gameplay’u,  Bartek wysłał na grupę klasową jak gra to na gitarze klasycznej, więc szybko pobrałem (oczywiście za jego zgodą) edytowałem tak aby sensownie się loopowała i ją dodałem.</p>
+## Known Bugs
 
- 
+Hitbox issues persist. On school computers, the game lagged significantly, running at 16 FPS, possibly due to weak processors or subprocesses. Additionally, the `\n` escape sequence did not function correctly. Apologies if these errors occur.
 
-<h2>4. ZASOBY, DZWIĘKI ITD.</h2>  
-<ul>
-    <li>Muzyka w grze – MADE BY BARTEK <3</li>
-    <li><a href="https://www.myinstants.com/en/categories/sound%20effects/">Efekty dźwiękowe</a> oraz mój kolega Tomek ig: broda_t351 (“dobła monetka” oraz “ITSA MI MARIUSZ AUTYSTA”)</li>
-    <li>Postacie – Wykonane przeze mnie (W paincie)</li>
-    <li><a href="https://fonts.google.com/">Czcionki</a></li>
-</ul>
-<h2>5. Błędy</h2>
+## Time Spent on the Game
 
-<p>Wcześniej wspomniane hitboxy, jak sprawdzałem na komputerze szkolnym to po 1 mega zacinało i było po 16 fpsów (nie uważam tego za błąd, ale jednak albo są słabe procki albo występują jakieś podprocesy), a po 2 “\n” nie działało więc, jeżeli błąd wystąpi również u Pana to serdecznie przepraszam. </p> 
-
-<h2>6. Czas spędzony na grze</h2>
-
-<p>Około 50h</p>
+Approximately 50 hours
