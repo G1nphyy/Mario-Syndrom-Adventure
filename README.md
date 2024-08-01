@@ -1,6 +1,6 @@
 # Mario Syndrome Adventure
 
-Authors: Borys Kędziora, Daniel Michor
+Authors: Me
 
 ## Introduction
 
